@@ -131,6 +131,7 @@ span{
     transition: 1s;
 
 }
+
 button:hover span{
     width: 100%;
     background: transparent;
@@ -325,4 +326,13 @@ input[type=checkbox]#ch:checked ~ .about-content1 {
 .skills-content .progress h3{
     font-size: 1.7rem;
     display: flex;
+}
+.next-para{
+    display: none;
+}
+.next-para.active{
+    display: block;
+}
+p {
+    font-size: 20px;
 }
