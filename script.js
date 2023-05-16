@@ -3,7 +3,6 @@ let navLinks = document.querySelectorAll('header nav a');
 const mainButton = document.getElementById("btn")
 const HidePara = document.getElementById("hidePara")
 
-
 mainButton.addEventListener("click", ()=>{
     HidePara.classList.toggle("active")
     
@@ -31,6 +30,5 @@ window.onscroll = () =>{
     let header =document.querySelector('header');
     header.classList.toggle('sticky',window.scrollY > 100);
 }
-
 
 

@@ -140,6 +140,7 @@ span{
     transition: 1s;
 
 }
+
 button:hover span{
     width: 100%;
     background: transparent;
@@ -395,4 +396,12 @@ label{
 .footer-iconTop a i{
     font-size: 2.4rem;
     color: wheat;
+.next-para{
+    display: none;
+}
+.next-para.active{
+    display: block;
+}
+p {
+    font-size: 20px;
 }
