@@ -41,33 +41,24 @@
             <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
             <a href="#"><i class='bx bxl-github' ></i></a>
         </div>
-        <a href="#" class="btn">Download CV</a>
+        <a href="/Pawan's CV.jpg" class="btn" download="">Download CV</a>
     </section>
     <section class="about" id="about">
         <h2 class="heading">About Me</h2>
         <div class="about-img">
-            <img class="image" src="pawan.png" alt="">
+            <img class="image" src="pawan.png">
             <span class="circle-spin"></span>
         </div>
-        
-        <div class="about-content">
-            <input id="ch" type="checkbox">
-            <h3>A Learner!</h3>
-            <p>My name is Pawan Gautam, and I am from Sindhuli. Currently, I am residing in Kalanki and pursuing my studies at Herald College in Kathmandu. I have completed my secondary education at Lampantar English School and my intermediate studies at Viswaniketan College in Tripureswor, Kathmandu. Recently, I have started learning Python programming, front-end development, and presentation skills. I am passionate about these fields and would like to work on a project related to them........
-            
-                <div class="about-content1">
-    As for my future plans, I aim to further develop my skills in Python and front-end development. I believe that by taking on new projects and learning from experienced professionals in the industry, I can enhance my knowledge and expertise in these areas. Additionally, I would like to use my presentation skills to present my ideas and work to potential clients and employers.
-
-    I am keen on exploring new areas of technology and keeping myself updated on emerging trends in the field. I firmly believe that staying up-to-date with the latest developments in technology will be crucial for my future success and growth as a professional.
-    Overall, I am excited about the future and look forward to continuing to develop my skills and achieve success in my career as a technology professional.</p>
-        <label for="ch">Show Less</label>
-    </div>
-            <div class="about-content1">
-                <label for="ch">Read More</label>
-                <!-- <button type="button"><span></span>ReadMore</button> -->
-            </div>
+        <div class="read-more">
+            <p>My name is Pawan Gautam, and I am from Sindhuli. Currently, I am residing in Kalanki and pursuing my studies at Herald College in Kathmandu. I have completed my secondary education at Lampantar English School and my intermediate studies at Viswaniketan College in Tripureswor, Kathmandu. Recently, I have started learning Python programming, front-end development, and presentation skills. I am passionate about these fields and would like to work on a project related to them.</p>
+            <p class="next-para about-para" id="hidePara">
+                As for my future plans, I aim to further develop my skills in Python and front-end development. I believe that by taking on new projects and learning from experienced professionals in the industry, I can enhance my knowledge and expertise in these areas. Additionally, I would like to use my presentation skills to present my ideas and work to potential clients and employers.
+                I am keen on exploring new areas of technology and keeping myself updated on emerging trends in the field. I firmly believe that staying up-to-date with the latest developments in technology will be crucial for my future success and growth as a professional.
+                Overall, I am excited about the future and look forward to continuing to develop my skills and achieve success in my career as a technology professional.
+            </p>
+            <button id="btn">Read More</button>
         </div>
- </section>
+    </section>
   <section class="education" id="education">
     <h2 class="heading">My Journey</h2>
 
@@ -140,16 +131,52 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
 </section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact Me!</h2>
 
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" required>
+                <span class="focus"></span>
+
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Subject" required>
+                <span class="focus"></span>
+
+            </div>
+        </div>
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Feel free to message.." required ></textarea>
+            <span class="focus"></span>
+        </div>
+        <div class="btn-box">
+            <button type="button">Submit</button>
+        </div>
+</form>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; by Mr.Pawan | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bxs-up-arrow-alt'></i></a>
+    </div>
+
+</footer>
+<script src="script.js"></script>
     
 </body>
 </html>
