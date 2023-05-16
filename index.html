@@ -135,37 +135,33 @@
 <section class="contact" id="contact">
     <h2 class="heading">Contact Me!</h2>
 
-    <form action="#">
-        <div class="input-box">
-            <div class="input-field">
-                <input type="text" placeholder="Full Name" required>
-                <span class="focus"></span>
-            </div>
-            <div class="input-field">
-                <input type="text" placeholder="Email Address" required>
-                <span class="focus"></span>
 
+<form
+  action="https://formspree.io/f/xgebqpwa"
+  method="POST"
+>
+    <div class="input-field">
+        <label>
+            <input type="email" name="email" placeholder="abc@gmail.com">
+        </label>
+    </div>
+    <div class="input-field">
+        <label>
+            <input type="text" name="name" placeholder="Enter your name" >
+        </label>
+    </div>
+    <div class="input-field">
+        <label>
+            <div class="textarea-field">
+                <textarea name="message"></textarea>
             </div>
-        </div>
-        <div class="input-box">
-            <div class="input-field">
-                <input type="number" placeholder="Mobile Number" required>
-                <span class="focus"></span>
-            </div>
-            <div class="input-field">
-                <input type="text" placeholder="Email Subject" required>
-                <span class="focus"></span>
-
-            </div>
-        </div>
-        <div class="textarea-field">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Feel free to message.." required ></textarea>
-            <span class="focus"></span>
-        </div>
-        <div class="btn-box">
-            <button type="button">Submit</button>
-        </div>
+        </label>
+    </div>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
+
+
 </section>
 <footer class="footer">
     <div class="footer-text">
