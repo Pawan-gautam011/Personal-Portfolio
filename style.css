@@ -92,7 +92,7 @@ section{
 }
 .home-content{
     max-width: 60rem;
-    /* z-index: 99; */
+
 }
 .home-content h1{
     font-size: 50px;
@@ -110,6 +110,9 @@ section{
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .9px #00abf0;
+    background-image: linear-gradient((#00abf0),(#00abf0));
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 .home-content p{
     font-size: 1.6rem;
@@ -320,11 +323,7 @@ label{
     font-size: 1.7rem;
     display: flex;
 }
-.contact {
-    background-color: #081b29;
-    padding: 80px 0;
-    margin: 30px;
-  }
+
   .input-field input,
   .textarea-field textarea {
     width: 100%;
@@ -341,6 +340,7 @@ label{
   
   .textarea-field textarea {
     height: 120px;
+    width: 100%;
     resize: none;
     color: #ededed;
     text-align: center;
@@ -399,6 +399,9 @@ label{
     }
     .footer{
         padding: 2rem 4%;
+    }
+    .textarea-field{
+        width: 100%;
     }
 }
 @media (max-width:768px){
@@ -467,12 +470,93 @@ label{
 
     }
     .button1{
-        margin-left: 400px;
+        margin-left: 350px;
     }
-    /* .textarea-field{
-        /* border-radius: 100px; */
+    .textarea-field{
+        margin-left: 30px ;
+        width: 100%;
+        }
     } 
  
+    @media (max-width:520px){
+        html{
+            font-size: 50%;
+        }
+        .home-content h1{
+            display: flex;
+            flex-direction: column;
+        }
+        .home-sci{
+            width: 160px;
+        }
+        .home-sci a{
+            width: 38px;
+            height: 38px;
+        }
+        .button1{
+            margin-left: 150px;
+        }
+        .input-field{
+            margin-left: 30px ;
+        }
+        .heading{
+            margin-left: 100px;
+        }
+        .home-content{
+            max-width: 60rem;
+        
+        }
+        .textarea-field{
+            width: 100%;
+            margin-left: 30px ;
+        }
+    }
+    @media (max-width:462px){
+        .home-content h1{
+            font-size: 5.2rem;
 
+        }
+        .education{
+            padding: 10rem 4% 5rem 5%;
+        }
+        .input-field{
+            width: 100%;
+            margin-left: 30px ;
+        }
+        .textarea-field{
+            width: 100%;
+            /* margin-left: 30px; */
+        }
+        .footer{
+            flex-direction: column-reverse;
+        }
+        .footer p{
+            margin-top: 2rem;
+            text-align: center;
 
+        }
+    }
+    @media (max-width:371px){
+        .home{
+            justify-content: center;
+        }
+        .home-content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+
+        }
+        .home-content h1{
+            font-size: 2rem;
+        }
+        .home-content p{
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .textarea-field{
+        margin-left: 20px ;
+        }
+    }
 
