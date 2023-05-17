@@ -191,6 +191,10 @@ p{
     width: 170px;
     background: transparent;
     color: white;
+        
+}
+.btn:hover{
+    text-decoration: underline;
 }
 .image{
     height: 50%;
@@ -223,19 +227,7 @@ p{
     border-radius: 50%;
     border: .2rem solid #00abf0;
 }
-.about-img .circle-spin{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(0);
-    width: 100%;
-    height: 60%;
-    border-radius: 100%;
-    border-top: .2rem solid red;
-    border-bottom: .2rem solid #00abf0;
-    border-left: .2rem solid #00abf0;
-    background: transparent;
-}
+
 .about-content{
     text-align: center;
 }
@@ -293,13 +285,13 @@ label{
 }
 .heading{
     font-size: 4.5rem;
-    color: #ededed;
     font-weight: 600;
+    margin-top: 10px;
+    color: #ededed;
     cursor: default;
     font-size: 3.2rem;
     color: transparent;
     -webkit-text-stroke: 1px #00abf0;
-    margin-top: 10px;
 }
 
 .a-image{
@@ -307,13 +299,12 @@ label{
     height: auto;
 
 }
-/* Make sure that padding behaves as expected */
+
 * {box-sizing:border-box}
 
-/* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 100%;
+  background-color: #ddd;
 }
 
 .skills {
@@ -433,6 +424,7 @@ label{
     .textarea-field{
         width: 100%;
     }
+
 }
 @media (max-width:768px){
     .header{
@@ -490,6 +482,24 @@ label{
         margin-left: 200px;
         margin-top: 10px;
     }
+    .social-media{
+        position: absolute;
+        display:flex;
+        bottom: 10rem;
+        justify-content:space-between;
+        width: 140px;
+        background: transparent;
+        margin-top: 305px;
+        top: 121px;
+    }
+    .heading{
+        font-size: 4.5rem;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .btn{
+        top:470px;
+    }
     .input-field{
         margin-left: 200px ;
     }
@@ -523,8 +533,25 @@ label{
             width: 38px;
             height: 38px;
         }
+        .social-media{
+            position: absolute;
+            display:flex;
+            bottom: 10rem;
+            justify-content:space-between;
+            width: 140px;
+            background: transparent;
+            margin-top: 300px;
+            top: 121px;
+        }
+        .heading{
+        
+            margin-left: 20px;
+        }
+    .btn{
+        top:470px;
+    }
         .button1{
-            margin-left: 150px;
+            margin-left: 200px;
         }
         .input-field{
             margin-left: 30px ;
@@ -544,6 +571,21 @@ label{
             font-size: 5.2rem;
 
         }
+        .social-media{
+            position: absolute;
+            display:flex;
+            bottom: 10rem;
+            justify-content:space-between;
+            width: 140px;
+            background: transparent;
+            margin-top: 300px;
+            top: 121px;
+
+        }
+        .btn{
+            top:470px;
+        }
+        
         .education{
             padding: 10rem 4% 5rem 5%;
         }
@@ -561,9 +603,10 @@ label{
         .footer p{
             margin-top: 2rem;
             text-align: center;
+        }
 
         }
-    }
+
     @media (max-width:371px){
         .home{
             justify-content: center;
@@ -575,6 +618,10 @@ label{
             text-align: center;
 
         }
+        /* .heading{
+            text-align: center;
+            margin-left: 30px;
+        } */
         .home-content h1{
             font-size: 2rem;
         }
@@ -585,6 +632,21 @@ label{
         }
         .textarea-field{
         margin-left: 20px ;
+        }
+        .social-media{
+            position: absolute;
+            display:flex;
+            bottom: 10rem;
+            justify-content:space-between;
+            width: 140px;
+            background: transparent;
+            margin-top: 300px;
+            top: 121px;
+
+        }
+        .btn{
+            top:470px;
+            margin-left: 120px;
         }
     }
 
