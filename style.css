@@ -79,7 +79,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 5rem 9% 2rem;
 }
 .home{
     display: flex;
@@ -292,56 +292,75 @@ label{
     -webkit-text-stroke: 1.5px #00abf0;
 }
 .heading{
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     color: #ededed;
     font-weight: 600;
     cursor: default;
-    margin-right: auto;
     font-size: 3.2rem;
     color: transparent;
     -webkit-text-stroke: 1px #00abf0;
-    margin-left: 450px;
     margin-top: 10px;
+}
+
+.a-image{
+    width: 350px;
+    height: auto;
 
 }
-.skills{
-    min-height: auto;
-    padding-bottom: 7rem;
-    background: #081b29;
-    justify-content: center;
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
 }
-.skills-box .skills-content{
-    position: relative;
-    border: 1rem solid #00abf0;
-    border-radius: .1rem;
-    padding: .1rem 1.5rem ;
+
+.skills {
+  text-align: right; 
+  font-size: 25px;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white;
 }
-.skills-content .progress{
-    padding: 1rem 0;
-}
-.skills-content .progress h3{
-    font-size: 1.7rem;
-    display: flex;
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.python {width: 60%; background-color: #808080;}
+
+.skill-bars{
+    padding: 0px 12px;
 }
 
   .input-field input,
   .textarea-field textarea {
-    width: 100%;
+    width: 700px;
     border: none;
     border-bottom: 2px solid #00abf0;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px 0;
     background: transparent;
     margin: 0;
+    text-align: center;
     color: #ededed;
   }
 
+  .form-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .textarea-field textarea {
-    height: 120px;
-    width: 100%;
-    resize: none;
+    height: 100%;
+    width: 700px;
     color: #ededed;
     text-align: center;
   }
@@ -355,6 +374,7 @@ label{
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: #112e42;
+    margin-top: 100px;
 
 }
 .footer-text p{
@@ -381,7 +401,16 @@ label{
     display: block;
 }
 
-
+.education-title{
+    font-size: 2.2rem;
+    padding: 12px 0px;
+}
+.edu-heading{
+    text-align: center;
+}
+.education-row{
+    margin-top: 12px;
+}
 @media (max-width:1200px){
     html{
         font-size: 55%;
@@ -499,9 +528,7 @@ label{
         .input-field{
             margin-left: 30px ;
         }
-        .heading{
-            margin-left: 100px;
-        }
+ 
         .home-content{
             max-width: 60rem;
         
