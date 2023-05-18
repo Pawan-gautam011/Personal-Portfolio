@@ -24,7 +24,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 100%;
     padding: 2rem;
     background: transparent;
     display: flex;
@@ -146,11 +146,11 @@ button:hover span{
 button:hover{
     border: none;
 }
-.social-media{
+.social-media {
     position: absolute;
-    display:flex;
-    bottom: 5rem;
-    justify-content:space-between;
+    display: flex;
+    bottom: 10rem;
+    justify-content: space-between;
     width: 170px;
     background: transparent;
 }
@@ -179,14 +179,14 @@ button:hover{
 p{
     font-size: 15px;
 }
-.btn{
+.btn {
     position: absolute;
-    display:flex;
-    bottom: 2rem;
+    display: flex;
+    bottom: 5rem;
     width: 170px;
     background: transparent;
     color: white;
-        
+    font-size: 25px;
 }
 .btn:hover{
     text-decoration: underline;
@@ -477,23 +477,24 @@ label{
         margin-left: 200px;
         margin-top: 10px;
     }
-    .social-media{
+    .social-media {
         position: absolute;
-        display:flex;
+        display: flex;
         bottom: 10rem;
-        justify-content:space-between;
-        width: 140px;
+        justify-content: space-between;
+        width: 184px;
         background: transparent;
-        margin-top: 305px;
-        top: 201px;
+        margin-top: auto;   
+        top: 733px;
     }
     .heading{
         font-size: 4.5rem;
         font-weight: 600;
         margin-top: 10px;
     }
-    .btn{
-        top:550px;
+    .btn {
+        top: 790px;
+        font-size: 25px;
     }
     .input-field{
         margin-left: 200px ;
