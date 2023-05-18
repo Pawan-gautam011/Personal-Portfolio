@@ -71,12 +71,7 @@ body{
 .next-para.active{
     display: block;
 }
-.darkMode-icon{
-    font-size: 19rem;
-    color: #fdfdfd;
-    cursor: pointer;
 
-}
 section{
     min-height: 100vh;
     padding: 5rem 9% 2rem;
@@ -490,7 +485,7 @@ label{
         width: 140px;
         background: transparent;
         margin-top: 305px;
-        top: 121px;
+        top: 201px;
     }
     .heading{
         font-size: 4.5rem;
@@ -498,7 +493,7 @@ label{
         margin-top: 10px;
     }
     .btn{
-        top:470px;
+        top:550px;
     }
     .input-field{
         margin-left: 200px ;
@@ -541,14 +536,14 @@ label{
             width: 140px;
             background: transparent;
             margin-top: 300px;
-            top: 121px;
+            top: 300px;
         }
         .heading{
         
             margin-left: 20px;
         }
     .btn{
-        top:470px;
+        top:650px;
     }
         .button1{
             margin-left: 200px;
@@ -579,11 +574,11 @@ label{
             width: 140px;
             background: transparent;
             margin-top: 300px;
-            top: 121px;
+            top: 201px;
 
         }
         .btn{
-            top:470px;
+            top:550px;
         }
         
         .education{
@@ -595,7 +590,6 @@ label{
         }
         .textarea-field{
             width: 100%;
-            /* margin-left: 30px; */
         }
         .footer{
             flex-direction: column-reverse;
@@ -618,10 +612,10 @@ label{
             text-align: center;
 
         }
-        /* .heading{
+        .heading{
             text-align: center;
             margin-left: 30px;
-        } */
+        }
         .home-content h1{
             font-size: 2rem;
         }
@@ -641,11 +635,11 @@ label{
             width: 140px;
             background: transparent;
             margin-top: 300px;
-            top: 121px;
+            top: 141px;
 
         }
         .btn{
-            top:470px;
+            top:500px;
             margin-left: 120px;
         }
     }
