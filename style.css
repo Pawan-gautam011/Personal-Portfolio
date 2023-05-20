@@ -515,6 +515,11 @@ label{
     } 
  
     @media (max-width:520px){
+        #menu-icon{
+            margin: 10px;
+            margin-right: 230px;
+        }
+        
         html{
             font-size: 50%;
         }
@@ -563,6 +568,11 @@ label{
         }
     }
     @media (max-width:462px){
+        
+        #menu-icon{
+            margin: 10px;
+            margin-right: 230px;
+        }
         .home-content h1{
             font-size: 5.2rem;
 
@@ -603,6 +613,11 @@ label{
         }
 
     @media (max-width:371px){
+        
+        #menu-icon{
+            margin: 10px;
+            margin-right: 230px;
+        }
         .home{
             justify-content: center;
         }
